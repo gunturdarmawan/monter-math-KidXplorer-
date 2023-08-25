@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2710C8B82A9321DA0087BA5D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710C8B72A9321DA0087BA5D /* Question.swift */; };
+		2710C8BB2A93221D0087BA5D /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710C8BA2A93221D0087BA5D /* QuestionViewModel.swift */; };
+		2710C8BE2A9322C70087BA5D /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710C8BD2A9322C70087BA5D /* QuizView.swift */; };
+		2710C8C02A9323150087BA5D /* QA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710C8BF2A9323150087BA5D /* QA.swift */; };
+		2710C8C22A9323A80087BA5D /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710C8C12A9323A80087BA5D /* QuestionView.swift */; };
+		2710C8C92A936FB60087BA5D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2710C8C82A936FB60087BA5D /* FirebaseDatabase */; };
+		2710C8CB2A936FB60087BA5D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2710C8CA2A936FB60087BA5D /* FirebaseFirestore */; };
+		2710C8CD2A936FB60087BA5D /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2710C8CC2A936FB60087BA5D /* FirebaseFirestoreSwift */; };
+		2710C8CF2A937A4F0087BA5D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2710C8CE2A937A4F0087BA5D /* GoogleService-Info.plist */; };
+		27EB78D82A9272D00005672F /* MonsterMathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78D72A9272D00005672F /* MonsterMathApp.swift */; };
+		27EB78DA2A9272D00005672F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78D92A9272D00005672F /* ContentView.swift */; };
+		27EB78DC2A9272D30005672F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EB78DB2A9272D30005672F /* Assets.xcassets */; };
+		27EB78DF2A9272D30005672F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EB78DE2A9272D30005672F /* Preview Assets.xcassets */; };
+		27EB78EA2A9275130005672F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78E92A9275130005672F /* TitleView.swift */; };
+		27EB78EC2A92755E0005672F /* FragmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78EB2A92755E0005672F /* FragmentView.swift */; };
+		27EB78EE2A9275B10005672F /* BgBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78ED2A9275B00005672F /* BgBlurView.swift */; };
+		27EB78F02A9276080005672F /* BgCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78EF2A9276080005672F /* BgCircleView.swift */; };
+		27EB78F22A92764A0005672F /* CardArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78F12A92764A0005672F /* CardArenaView.swift */; };
+		27EB78F52A9276FF0005672F /* DataArena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78F42A9276FF0005672F /* DataArena.swift */; };
+		27EB78F72A9277600005672F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78F62A9277600005672F /* MainView.swift */; };
+		27EB78FA2A927BBE0005672F /* ArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78F92A927BBE0005672F /* ArenaView.swift */; };
+		27EB78FC2A927C2C0005672F /* CardShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78FB2A927C2C0005672F /* CardShape.swift */; };
+		27EB78FE2A927C780005672F /* ListQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78FD2A927C780005672F /* ListQuizView.swift */; };
+		27EB79002A927CCC0005672F /* BgBlurSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EB78FF2A927CCC0005672F /* BgBlurSingle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2710C8B72A9321DA0087BA5D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		2710C8BA2A93221D0087BA5D /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		2710C8BD2A9322C70087BA5D /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		2710C8BF2A9323150087BA5D /* QA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QA.swift; sourceTree = "<group>"; };
+		2710C8C12A9323A80087BA5D /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		2710C8CE2A937A4F0087BA5D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2710C8D02A937E870087BA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		27EB78D42A9272D00005672F /* MonsterMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EB78D72A9272D00005672F /* MonsterMathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterMathApp.swift; sourceTree = "<group>"; };
+		27EB78D92A9272D00005672F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27EB78DB2A9272D30005672F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27EB78DE2A9272D30005672F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27EB78E92A9275130005672F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		27EB78EB2A92755E0005672F /* FragmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FragmentView.swift; sourceTree = "<group>"; };
+		27EB78ED2A9275B00005672F /* BgBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgBlurView.swift; sourceTree = "<group>"; };
+		27EB78EF2A9276080005672F /* BgCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgCircleView.swift; sourceTree = "<group>"; };
+		27EB78F12A92764A0005672F /* CardArenaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardArenaView.swift; sourceTree = "<group>"; };
+		27EB78F42A9276FF0005672F /* DataArena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataArena.swift; sourceTree = "<group>"; };
+		27EB78F62A9277600005672F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		27EB78F92A927BBE0005672F /* ArenaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaView.swift; sourceTree = "<group>"; };
+		27EB78FB2A927C2C0005672F /* CardShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardShape.swift; sourceTree = "<group>"; };
+		27EB78FD2A927C780005672F /* ListQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListQuizView.swift; sourceTree = "<group>"; };
+		27EB78FF2A927CCC0005672F /* BgBlurSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgBlurSingle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27EB78D12A9272D00005672F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2710C8C92A936FB60087BA5D /* FirebaseDatabase in Frameworks */,
+				2710C8CB2A936FB60087BA5D /* FirebaseFirestore in Frameworks */,
+				2710C8CD2A936FB60087BA5D /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2710C8B92A9321F80087BA5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2710C8BA2A93221D0087BA5D /* QuestionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2710C8BC2A93229D0087BA5D /* ViewQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				2710C8BD2A9322C70087BA5D /* QuizView.swift */,
+				2710C8BF2A9323150087BA5D /* QA.swift */,
+				2710C8C12A9323A80087BA5D /* QuestionView.swift */,
+			);
+			path = ViewQuiz;
+			sourceTree = "<group>";
+		};
+		27EB78CB2A9272D00005672F = {
+			isa = PBXGroup;
+			children = (
+				27EB78D62A9272D00005672F /* MonsterMath */,
+				27EB78D52A9272D00005672F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27EB78D52A9272D00005672F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27EB78D42A9272D00005672F /* MonsterMath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27EB78D62A9272D00005672F /* MonsterMath */ = {
+			isa = PBXGroup;
+			children = (
+				2710C8D02A937E870087BA5D /* Info.plist */,
+				2710C8CE2A937A4F0087BA5D /* GoogleService-Info.plist */,
+				27EB78D72A9272D00005672F /* MonsterMathApp.swift */,
+				2710C8B92A9321F80087BA5D /* ViewModel */,
+				27EB78F32A9276D40005672F /* Model */,
+				27EB78E72A9273260005672F /* UI */,
+				27EB78E52A92730F0005672F /* View */,
+				27EB78DB2A9272D30005672F /* Assets.xcassets */,
+				27EB78DD2A9272D30005672F /* Preview Content */,
+			);
+			path = MonsterMath;
+			sourceTree = "<group>";
+		};
+		27EB78DD2A9272D30005672F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27EB78DE2A9272D30005672F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27EB78E52A92730F0005672F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				27EB78D92A9272D00005672F /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27EB78E72A9273260005672F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2710C8BC2A93229D0087BA5D /* ViewQuiz */,
+				27EB78F82A927AF90005672F /* ViewArena */,
+				27EB78E82A92745B0005672F /* ViewHome */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		27EB78E82A92745B0005672F /* ViewHome */ = {
+			isa = PBXGroup;
+			children = (
+				27EB78F62A9277600005672F /* MainView.swift */,
+				27EB78E92A9275130005672F /* TitleView.swift */,
+				27EB78EB2A92755E0005672F /* FragmentView.swift */,
+				27EB78ED2A9275B00005672F /* BgBlurView.swift */,
+				27EB78EF2A9276080005672F /* BgCircleView.swift */,
+				27EB78F12A92764A0005672F /* CardArenaView.swift */,
+			);
+			path = ViewHome;
+			sourceTree = "<group>";
+		};
+		27EB78F32A9276D40005672F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27EB78F42A9276FF0005672F /* DataArena.swift */,
+				2710C8B72A9321DA0087BA5D /* Question.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27EB78F82A927AF90005672F /* ViewArena */ = {
+			isa = PBXGroup;
+			children = (
+				27EB78F92A927BBE0005672F /* ArenaView.swift */,
+				27EB78FB2A927C2C0005672F /* CardShape.swift */,
+				27EB78FD2A927C780005672F /* ListQuizView.swift */,
+				27EB78FF2A927CCC0005672F /* BgBlurSingle.swift */,
+			);
+			path = ViewArena;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27EB78D32A9272D00005672F /* MonsterMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EB78E22A9272D30005672F /* Build configuration list for PBXNativeTarget "MonsterMath" */;
+			buildPhases = (
+				27EB78D02A9272D00005672F /* Sources */,
+				27EB78D12A9272D00005672F /* Frameworks */,
+				27EB78D22A9272D00005672F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsterMath;
+			packageProductDependencies = (
+				2710C8C82A936FB60087BA5D /* FirebaseDatabase */,
+				2710C8CA2A936FB60087BA5D /* FirebaseFirestore */,
+				2710C8CC2A936FB60087BA5D /* FirebaseFirestoreSwift */,
+			);
+			productName = MonsterMath;
+			productReference = 27EB78D42A9272D00005672F /* MonsterMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27EB78CC2A9272D00005672F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					27EB78D32A9272D00005672F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 27EB78CF2A9272D00005672F /* Build configuration list for PBXProject "MonsterMath" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27EB78CB2A9272D00005672F;
+			packageReferences = (
+				2710C8C72A936FB60087BA5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 27EB78D52A9272D00005672F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27EB78D32A9272D00005672F /* MonsterMath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27EB78D22A9272D00005672F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EB78DF2A9272D30005672F /* Preview Assets.xcassets in Resources */,
+				27EB78DC2A9272D30005672F /* Assets.xcassets in Resources */,
+				2710C8CF2A937A4F0087BA5D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27EB78D02A9272D00005672F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EB78EC2A92755E0005672F /* FragmentView.swift in Sources */,
+				27EB78FC2A927C2C0005672F /* CardShape.swift in Sources */,
+				27EB78F72A9277600005672F /* MainView.swift in Sources */,
+				27EB78F02A9276080005672F /* BgCircleView.swift in Sources */,
+				27EB78F22A92764A0005672F /* CardArenaView.swift in Sources */,
+				2710C8B82A9321DA0087BA5D /* Question.swift in Sources */,
+				27EB78FE2A927C780005672F /* ListQuizView.swift in Sources */,
+				2710C8C02A9323150087BA5D /* QA.swift in Sources */,
+				2710C8BB2A93221D0087BA5D /* QuestionViewModel.swift in Sources */,
+				27EB78F52A9276FF0005672F /* DataArena.swift in Sources */,
+				27EB78DA2A9272D00005672F /* ContentView.swift in Sources */,
+				27EB78EE2A9275B10005672F /* BgBlurView.swift in Sources */,
+				27EB78D82A9272D00005672F /* MonsterMathApp.swift in Sources */,
+				27EB78FA2A927BBE0005672F /* ArenaView.swift in Sources */,
+				2710C8BE2A9322C70087BA5D /* QuizView.swift in Sources */,
+				27EB79002A927CCC0005672F /* BgBlurSingle.swift in Sources */,
+				2710C8C22A9323A80087BA5D /* QuestionView.swift in Sources */,
+				27EB78EA2A9275130005672F /* TitleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27EB78E02A9272D30005672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27EB78E12A9272D30005672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27EB78E32A9272D30005672F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonsterMath/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LB2DP6KAM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonsterMath/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				NEW_SETTING2 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "kidXplorer.Quiz-Monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27EB78E42A9272D30005672F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonsterMath/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LB2DP6KAM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonsterMath/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				NEW_SETTING2 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "kidXplorer.Quiz-Monster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27EB78CF2A9272D00005672F /* Build configuration list for PBXProject "MonsterMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EB78E02A9272D30005672F /* Debug */,
+				27EB78E12A9272D30005672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27EB78E22A9272D30005672F /* Build configuration list for PBXNativeTarget "MonsterMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EB78E32A9272D30005672F /* Debug */,
+				27EB78E42A9272D30005672F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2710C8C72A936FB60087BA5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2710C8C82A936FB60087BA5D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2710C8C72A936FB60087BA5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		2710C8CA2A936FB60087BA5D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2710C8C72A936FB60087BA5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2710C8CC2A936FB60087BA5D /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2710C8C72A936FB60087BA5D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27EB78CC2A9272D00005672F /* Project object */;
+}
